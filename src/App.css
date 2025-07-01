@@ -5,7 +5,7 @@ body{
   background-color: #b1e3b2;
   background-image: url('/Images/footer_bird.png'); 
   background-repeat: no-repeat; 
-  background-size: 600px 600px;
+  background-size: 400px 400px;
   background-position: center center;
   font-family: sans-serif;
 }
@@ -43,10 +43,7 @@ background-color: transparent; /* Blue */
 .controls{
   height: 700px;
   border: 2px solid black;
+  display: flex;
+  gap: 20px;
 }
-.controls1{
-gap: 10px;
-padding: 2px;
-height: 30px;
-border: 1px solid black;
-}
+

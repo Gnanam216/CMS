@@ -29,20 +29,38 @@ function BookingEntry() {
         <button className='button' onClick={() => setactivet('adv_tab')}>Advanced</button>
         <button className='button' onClick={() => setactivet('qa_ta')}>QA Form</button>
       </div>
-      <div>
-        {activetab === 'adv_tab' && (
+      <div className='controls'>
         
+        {activetab === 'adv_tab' && (
+          <>
+           <div style={{ display: 'flex', flexDirection: 'column', gap: '1px', marginTop: '20px' }}>
 
-          <div className='controls'>
-            <div>
-<div>
-  <label style={{color:'white',marginTop:'100px', padding:'2px'}}>Juris</label>
-</div>
-            </div>
-            <div></div>
-            <div></div>
-          </div>
-        )}
+           <div style={{ display: 'flex', alignItems: 'center', padding:'5px' }}>
+         <label style={{ color: 'white', width: '80px' }}>Juris:</label>
+         <select style={{ flex: 1, padding: '5px' }}>
+           <option value="">Select</option>
+           <option value="male">Phoenix-C</option>
+           <option value="female">Phoenix-US</option>
+           <option value="other">Other</option>
+         </select>
+       </div>
+           <div style={{ display: 'flex', alignItems: 'center', padding:'5px' }}>
+             <label style={{ color: 'white', width: '80px' }}>Name:</label>
+             <input type="text" value="Madhan" style={{ flex: 1, padding: '5px' }} />
+           </div>
+         
+           
+           <div style={{ display: 'flex', alignItems: 'center',padding:'5px' }}>
+             <label style={{ color: 'white', width: '80px' }}>SPN:</label>
+             <input type="number" value="23" style={{ flex: 1, padding: '5px' }} />
+           </div>
+          
+         </div>
+        
+       </>
+          )}
+          
+         
 
       </div>
 
