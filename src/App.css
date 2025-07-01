@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #b1e3b2;
+  background-color: #dafad2;
   background-image: url('/Images/footer_bird.png'); 
   background-repeat: no-repeat; 
   background-size: 400px 400px;
@@ -11,21 +11,41 @@ body{
 }
 .container{
   padding: 20px;
-  
 }
 .button{
-background-color: transparent; /* Blue */
-  color: white;
+ /* Blue */
+  color: rgb(13, 236, 13);
   padding: 10px 20px;
   border: 1px solid white;
   border-radius: 4px;
   cursor: pointer;
   font-weight:bold;
   transition: background-color 0.3s;
+  background-color: #2e2020;
+  
 }
 .button:hover{
-   background-color: rgba(255, 255, 255, 0.2);
+   background-color: rgba(115, 8, 236, 0.363);
 }
+
+
+/* TAB BUTTONS */
+.tabbutton{
+  color: rgb(252, 65, 9);
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight:bold;
+  transition: background-color 0.3s;
+  background-color: #8292f193;
+  
+}
+.tabbutton:hover{
+background-color: rgba(7, 120, 250, 0.363);
+}
+
+
 .action-buttons{
   
   display: flex;
@@ -43,7 +63,15 @@ background-color: transparent; /* Blue */
 .controls{
   height: 700px;
   border: 2px solid black;
+ 
+}
+.label{
+  width: 80px;
+  color: black;
+}
+.div-controls{
   display: flex;
-  gap: 20px;
+  align-items: center;
+  padding: 5px;
 }
 

@@ -5,7 +5,7 @@ function App() {
 
 const navigate= useNavigate();
 const booking_entry =()=>{
-  navigate('/Booking_entry')
+  navigate('/InmateSearch')
 }
   return (
     <div><h1 style={{color:'white', textAlign:'center', paddingTop:'100px'}}>Welcome to CMS</h1>
