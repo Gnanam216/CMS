@@ -6,13 +6,15 @@ import App from './App';
 import BookingEntry from './Component/Booking_entry';
 import reportWebVitals from './reportWebVitals';
 import InmateSearch from './Component/InmateSearch';
+import InmateEntry from './Component/InmateEntry';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Routes>
      <Route path="/" element={<App />} />
-      <Route path="/Booking_entry" element={<BookingEntry />} />
+      {/* <Route path="/Booking_entry" element={<BookingEntry />} /> */}
       <Route path="/InmateSearch" element={<InmateSearch />} />
+      <Route path="/InmateEntry" element={<InmateEntry/>}/>
   </Routes>
   </BrowserRouter>
 );

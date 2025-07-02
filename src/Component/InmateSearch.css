@@ -1,0 +1,45 @@
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="time"]:hover,
+select:hover {
+  background-color: #e0f7fa; /* light cyan */
+  border-color: #011a01b4;
+}
+.Dropdown{
+    flex:1px;
+    padding:1px;
+    width: 200px;
+    height: 25px;
+    border-color: black;
+    border-radius: 3px;
+}
+.textbox{
+    flex:1px;
+    padding:1px;
+    width: 195px;
+    height: 18px;
+    border-color: black;
+    border-radius: 3px;
+}
+.label{
+  width: 80px;
+  color: black;
+}
+.checkbox-label {
+  color: black;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.styled-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: black; /* Modern browsers */
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
