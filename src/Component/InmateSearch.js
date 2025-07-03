@@ -6,11 +6,15 @@ function InmateSearch() {
     const [activetab, setactivet] = useState('basic_tab');
     const navigate = useNavigate();
     const Inmate_Entry = () => {
-        navigate('/InmateEntry')
-    }
+        // navigate('/InmateEntry')
+         window.open('/InmateEntry',
+        'BookingEntry', // Window name
+        'width=800,height=650,left=200,top=100,noopener,noreferrer'
+        );
+    };
     const back_click = () => {
         navigate('/InmateSearch')
-    }
+    };
     return (
         <div>
             <div>
