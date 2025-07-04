@@ -21,11 +21,7 @@ function InmateEntry() {
                             <input type="text" />
                             <input type="text" style={{ width: '100px' }} />
                             <input type="text" style={{ width: '100px' }} />
-                            <img
-                                src="/Images/search.png"
-                                alt="Search"
-                                style={{ width: '24px', height: '24px', cursor: 'pointer' }}
-                            />
+                            
                         </div>
                     </td>
 
