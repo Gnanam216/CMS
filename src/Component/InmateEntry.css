@@ -8,3 +8,11 @@
     font-size: bold;
     text-align: center;
 }
+.Dropdown{
+    flex:1px;
+    padding:1px;
+    width: 200px;
+    height: 25px;
+    border-color: black;
+    border-radius: 3px;
+}

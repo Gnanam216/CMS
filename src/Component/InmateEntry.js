@@ -63,49 +63,66 @@ function InmateEntry() {
         //                     <td>Sentance Status</td>
         //                     <td>N/A N/A</td>
         //                 </tr>
-                    
+
         //         </tbody>
         //     </table>
 
         // </div>
-        
-            <div className='container'>
-                <div><label>SPN</label></div>
-                <div style={{marginRight:'450px'}}><input type="text" /></div>
-                <div style={{ marginTop: '15px' }}><label>Name</label></div>
-                <div><div style={{ display: 'flex', alignItems: 'center', marginTop: '0px', gap: '0px' }}>
-                                 <div>
-                                     <label>ID</label><br />
-                                     <input type="text" style={{ width: '25px' }} />
-                                 </div>
-                                 <div>
-                                     <label>Last</label><br />
-                                     <input type="text" style={{ width: '100px' }} />
-                                 </div>
-                             <div>
-                                     <label>First</label><br />
-                                     <input type="text" />
-                                 </div>
-                                 <div>
-                                     <label>Middle</label><br />
-                                     <input type="text" />
-                             </div>
-                                 <div style={{ marginLeft: '0px' }}>
-                                     <label>Suffix</label><br />
-                                     <input type="text" style={{ width: '100px' }} />
-                                 </div>
-                             </div></div>
-                <div>5</div>
-                <div>6</div>
-                <div>7</div>
-                <div>8</div>
-                <div>9</div>
-                <div>10</div>
-                <div>11</div>
-                <div>12</div>
+        <>
+            <div>
+
             </div>
 
-        
+            <div className='container'>
+                <div><label>SPN</label></div>
+                <div style={{ marginRight: '450px' }}><input type="text" /></div>
+                <div style={{ marginTop: '15px' }}><label>Name</label></div>
+                <div><div style={{ display: 'flex', alignItems: 'center', marginTop: '0px', gap: '0px' }}>
+                    <div>
+                        <label>ID</label><br />
+                        <input type="text" style={{ width: '25px' }} />
+                    </div>
+                    <div>
+                        <label>Last</label><br />
+                        <input type="text" style={{ width: '100px' }} />
+                    </div>
+                    <div>
+                        <label>First</label><br />
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>Middle</label><br />
+                        <input type="text" />
+                    </div>
+                    <div style={{ marginLeft: '0px' }}>
+                        <label>Suffix</label><br />
+                        <input type="text" style={{ width: '100px' }} />
+                    </div>
+                </div></div>
+
+                <div><label>CMS Booking#</label></div>
+                <div style={{ marginRight: '450px' }}> <input type="text" /></div>
+                <div><label>Sex/Race</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>Inmate Type</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>Assigned Cell</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>DOB</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>Confine Reason</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>Current Loc</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>Physical</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>Sentence Status</label></div>
+                <div style={{ marginRight: '450px' }}><label>N/A N/A</label></div>
+                <div><label>Jail Alert</label></div>
+                <div></div>
+            </div>
+
+        </>
     )
 }
 export default InmateEntry;
